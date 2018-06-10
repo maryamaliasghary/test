@@ -1,0 +1,8 @@
+git config --global user.name "Maryam Aliasghary"
+git config --global user.email "maryamaliasghary@gmail.com"
+git clone http://server2.paeco.net/paeco/natakandroid.git
+cd natakandroid
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
